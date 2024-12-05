@@ -1,0 +1,19 @@
+.block {
+  margin: 2px;
+  
+  button {
+    width: 32px;
+    height: 32px;
+    font-size: 14px;
+    padding: 4px;
+  }
+
+  button:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
+  button.revealed {
+    background-color: gray;
+  }
+}

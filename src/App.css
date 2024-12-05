@@ -1,0 +1,15 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+button {
+  /* background-color: white;
+  border: solid 1px bisque; */
+  border-radius: 8px;
+  height: 50px;
+  width: 50px;
+  margin: 2px;
+}
