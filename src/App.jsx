@@ -5,7 +5,7 @@ import BoardUI from './components/BoardUI';
 import './App.css';
 
 function App() {
-  const [board, setBoard] = useState(new Board(20, 5));
+  const [board, setBoard] = useState(new Board(20, 10));
 
   const onBlockClicked = (block) => {
     board.revealBlock(block);
